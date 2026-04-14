@@ -8,7 +8,7 @@ export default function WeatherDisplay({weatherdata}) {
             Temperature: 
             <span className= {weatherdata.temperature>20  ? 'red':"blue"}> {weatherdata.temperature}</span>
         </p>
-        <p>conditions: {weatherdata.conditions}</p>
+        <p>Conditions: {weatherdata.conditions}</p>
     </div>
   )
 }
